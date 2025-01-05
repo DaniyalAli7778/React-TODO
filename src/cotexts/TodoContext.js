@@ -1,4 +1,5 @@
-import { createContext,useContext } from "react";
+/* eslint-disable no-unused-vars */
+ import { createContext,useContext } from "react";
 
 export const TodoContext = createContext({
 
@@ -12,7 +13,7 @@ export const TodoContext = createContext({
     addTodo: (todo)=>{},
      updateTodo:(id,todo)=>{},
      deleteTodo:(id)=>{},
-     toggleComplete:(id)=>{},
+     toggleComplete:(_id)=>{},
 });
 
  export const useTodo= function(){
